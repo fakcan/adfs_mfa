@@ -1,0 +1,21 @@
+﻿<div id="loginArea">
+ <form method="post" id="loginForm" >
+	<input id="authMethod" type="hidden" name="AuthMethod" value="%AuthMethod%"/>
+	<input id="context" type="hidden" name="Context" value="%Context%"/>
+	 <input id="userId" type="hidden" name="userId" value="[USERID]"/>
+	 <br>
+	 <p id="pageIntroductionText">Lütfen telefonunuza gelen Sms şifresini giriniz:</p>
+	 <label for="Input" class="block">SMS şifresi</label>
+	 <input id="Input" name="SMS" type="password" value="" class="text" />
+	 <div id="submissionArea" class="submitMargin">
+		<input id="submitButton" type="submit" name="Submit" value="Gönder" onclick="return AuthPage.submitAnswer()"/>
+	</div>
+	[MessageArea]
+ </form>
+ <script type="text/javascript" language="JavaScript">
+	//<![CDATA[
+	function AuthPage() { }
+		AuthPage.submitAnswer = function () { return true; };
+	//]]>
+ </script>
+</div>

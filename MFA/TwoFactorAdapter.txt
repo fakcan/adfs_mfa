@@ -1,0 +1,15 @@
+
+ /--------------- YKB MFA Event Log Kodlarý ---------------\
+/-----------------------------------------------------------\
+| 100 - SMS Web servisine gönderime hazýrlanýyor            |
+| 200 - SMS Web servisine gönderim baþarýlý, cevap alýndý   |
+| 220 - Kullanýcý SMS i doðru girdi                         |
+| 240 - SMS doðrulama yapýlmadan giriþe izin verildi        |
+| 401 - Kullanýcý SMS alanýný boþ býrakarak formu göndermiþ |
+| 404 - SMS bulunamadý                                      |
+| 402 - Girilen SMS yanlýþ                                  |
+| 403 - SMS gönderimine yetki yok                           |
+| 500 - SMS Web servisine eriþilirken hata oluþtu           |
+| 501 - SMS Web serivisi iç hata                            |
+| 502 - Bilinmeyen hata                                     |
+\-----------------------------------------------------------/

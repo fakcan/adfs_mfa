@@ -1,0 +1,25 @@
+
+ /------------------- MFA Event Log Kodlarý -----------------\
+/-------------------------------------------------------------\
+|  10 - ADFS MFA konfigurasyon dosyasý okundu                 |
+|  12 - AD FS configData.Data is null                         |
+|  13 - AD FS configData is null                              |
+|  14 - ADFS MFA config dosyasý bulunamadý                    |
+|  15 - ADFS MFA konfigurasyon dosyasý okunurken hata oluþtu  |
+|  50 - AD üyelik kontrolü yapýldý                            |
+|  55 - AD üyelik kontrolü sýrasýnda hata alýndý              |
+|  70 - AD kullanýcý özellikleri kontrol ediliyor             |
+|  75 - AD kullanýcý özellikleri kontrol edirken hata alýndý  |
+| 100 - SMS Web servisine gönderime hazýrlanýyor              |
+| 200 - SMS Web servisine gönderim baþarýlý, cevap alýndý     |
+| 210 - Yönlendirilmiþ hesap doðrulandý                       |
+| 220 - Kullanýcý SMS'i doðru girdi                           |
+| 240 - SMS doðrulama yapýlmadan giriþe izin verildi          |
+| 401 - Kullanýcý SMS alanýný boþ býrakarak formu göndermiþ   |
+| 402 - Girilen SMS yanlýþ                                    |
+| 403 - SMS gönderimine yetki yok                             |
+| 404 - SMS bulunamadý                                        |
+| 500 - SMS Web servisine eriþilirken hata oluþtu             |
+| 501 - SMS Web serivisi iç hata                              |
+| 502 - Bilinmeyen hata                                       |
+\-------------------------------------------------------------/

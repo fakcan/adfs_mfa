@@ -1,0 +1,22 @@
+<div id="loginArea">
+ <form method="post" id="loginForm" >
+	 <input id="authMethod" type="hidden" name="AuthMethod" value="%AuthMethod%"/>
+	 <input id="context" type="hidden" name="Context" value="%Context%"/>
+	 <input id="userId" type="hidden" name="userId" value="[USERID]"/>
+	 <br>
+	 <p id="pageIntroductionText">MFA doðrulama bu kullanýcý için aktif deðil, devam etmek için ileriyi týklayýn</p>
+	 <div id="submissionArea" class="submitMargin">
+		<input id="submitButton" type="submit" name="Submit" value="Ýleri" onclick="return AuthPage.submitAnswer()"/>
+	 </div>
+ </form>
+ <script type="text/javascript" language="JavaScript">
+	//<![CDATA[
+	function AuthPage() { }
+	AuthPage.submitAnswer = function () { return true; };
+	
+	window.onload = function(){
+		document.forms['loginForm'].submit()
+	}
+	//]]>
+ </script>
+</div>
